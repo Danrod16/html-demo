@@ -1,0 +1,66 @@
+/* TODO: design your profile with CSS */
+
+body {
+  background-color: #F2F3D9;
+}
+
+h1, h2, h3 {
+  color: #191919;
+  font-family: montserrat;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  color: #191919;
+  font-family: courier;
+}
+
+#bio-pic {
+  border-radius: 500px;
+  height: 200px;
+}
+
+li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-card {
+  background-color: white;
+  object-fit: cover;
+  width: 70vw;
+  text-align: center;
+  margin: 15px auto;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.my-card h2 {
+  font-size: 24px;
+}
+
+.button-primary {
+  color: white;
+  background-color: #102E4A;
+  padding: 15px 35px;
+  border-radius: 10px;
+  letter-spacing: 3px !important;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.button-primary:hover {
+  background-color: rgba(16, 46, 74, 0.9);
+}
+
+.bio-description {
+  padding: 25px;
+}
+
